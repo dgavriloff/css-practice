@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {background-color: #36384d;font-family: Roboto-Regular;}
+    .main-block { display:flex; background-color: #36384d; justify-content: center;}
+    .left-block {display: table-column; margin-top: auto; margin-bottom: auto; margin-left: 50px; margin-right:50px;}
+    .left-block h1 {font-family: Roboto-Bold; font-size: 350%; white-space: nowrap; margin: 0%;}
+    .left-block h6 {font-family: Roboto-Bold; margin-bottom: 3%; font-size: 100%;}
+    .left-block p {font-size: 100%; }
+    .left-block ul { list-style-image: url("assets/images/icon-list.svg");}
+    .left-block li {margin-top: 2%; margin-bottom: 2%; position: relative; }
+    .list {margin-bottom: 1px;}
+    .right-block {display: grid; margin: 30px; width: auto; height: auto;}
+    .right-block img{width: auto; height: auto;}
+    .center-block{display: flex; background-color: #fff; margin-top: 2%; border-radius: 25px;}
+    .left-block input {width:100%;  border-radius: 10px; padding: 5%; font-size: 100%;box-sizing: content-box}
+    .left-block button {width: 100%; font-size: 110%; color:white;padding: 5%; border-radius: 10px; border: none; box-sizing: content-box; background-image: linear-gradient(to right, #ff5476,#ff673e );}
+    .left-block button:hover{background-image: linear-gradient(to right, #ff673e, #ff5476);}
+    @font-face {
+      font-family: "Roboto-Regular";
+      src: url("assets/fonts/Roboto-Regular.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "Roboto-Bold";
+      src: url("assets/fonts/Roboto-Bold.ttf") format("truetype");
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="main-block">
+    <div class="center-block">
+    <div class="left-block">
+    <h1>Stay updated!</h1>
+
+    <p>Join 60,000+ product managers receiving monthly<br> updates on:</p>
+    <ul>
+      <li><span></span>Product discovery and building what matters</li>
+      <li><div class="list">Measuring to ensure updates are a success</div></li>
+      <li><div class="list">And much more!</div></li>
+    </ul>
+    <h6>Email address</h6>
+    <form>
+      <input value="email@company.com" type="text">
+      <br></br>
+      <button>Subscribe to monthly newsletter</button>
+    </form>
+  </div>
+  <div class="right-block">
+    <img src="assets/images/illustration-sign-up-desktop.svg"/>
+  </div>
+  </div>
+
+
+
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+<!--
+  Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+
+  Dismiss message
+-->
+  <!-- Success message end -->
+  </div>
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  -->
+  </div>
+</body>
+</html>

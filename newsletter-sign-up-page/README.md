@@ -1,0 +1,1 @@
+Simple newsletter sign up page. Was given a design in assets/images and I wrote it up in pure CSS.
